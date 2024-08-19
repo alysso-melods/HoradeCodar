@@ -12,12 +12,12 @@ programa
 
         se (idade >= 16)
         {
-          escreva("Você pode votar este ano.\n")
+          escreva("VocÃª pode votar este ano.\n")
         }
 
         senao
         {
-          escreva("Você não pode votar este ano.\n")
+          escreva("VocÃª nÃ£o pode votar este ano.\n")
         }
     }
 }
