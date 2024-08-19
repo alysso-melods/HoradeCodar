@@ -21,6 +21,6 @@ programa
             pesoIdeal = (62.1 * altura) - 44.7
         }
 
-        escreva("O seu peso ideal é: ", pesoIdeal, "\n")
+        escreva("O seu peso ideal Ã©: ", pesoIdeal, "\n")
     }
 }
