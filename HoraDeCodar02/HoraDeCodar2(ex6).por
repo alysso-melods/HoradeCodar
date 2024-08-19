@@ -31,7 +31,7 @@ programa
         }
 
         escreva("Primeiro valor: ", valor1, "\n")
-        escreva("Último valor: ", valor4, "\n")
+        escreva("Ãšltimo valor: ", valor4, "\n")
         escreva("Maior valor: ", maior, "\n")
 
     }
