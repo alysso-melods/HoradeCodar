@@ -11,39 +11,39 @@ programa
         escreva("Informe o segundo valor: ")
         leia(valor2)
 
-        escreva("Escolha a operaÁ„o (1. AdiÁ„o, 2. SubtraÁ„o, 3. Divis„o, 4. MultiplicaÁ„o): ")
+        escreva("Escolha a opera√ß√£o (1. Adi√ß√£o, 2. Subtra√ß√£o, 3. Divis√£o, 4. Multiplica√ß√£o): ")
         leia(operacao)
 
         escolha (operacao)
         {
           caso 1:
           r = valor1 + valor2
-          escreva("r da adiÁ„o: ", r)
+          escreva("r da adi√ß√£o: ", r)
           pare
 
           caso 2:
           r = valor1 - valor2
-          escreva("r da subtraÁ„o: ", r)
+          escreva("r da subtra√ß√£o: ", r)
           pare
 
           caso 3:
           se (valor2 != 0)
             {
                 r = valor1 / valor2
-                escreva("r da divis„o: ", r)
+                escreva("r da divis√£o: ", r)
             }
              senao
             {
-                escreva("Erro: divis„o por zero n„o existe")
+                escreva("Erro: divis√£o por zero n√£o existe")
             }
           pare
 
           caso 4:
           r = valor1 * valor2
-          escreva("r da multiplicaÁ„o: ", r)
+          escreva("r da multiplica√ß√£o: ", r)
           pare
 
-          escreva("OperaÁ„o inv·lida. Por favor, tente novamente")
+          escreva("Opera√ß√£o inv√°lida. Por favor, tente novamente")
       }
   }
 }
