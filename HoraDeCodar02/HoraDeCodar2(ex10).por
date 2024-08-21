@@ -3,16 +3,16 @@ programa
     funcao inicio()
     {
         real altura
-        inteiro sexo
+        inteiro gênero
         real pesoIdeal
 
-        escreva("Insira seu sexo (1 para feminino, 2 para masculino): ")
-        leia(sexo)
+        escreva("Insira seu gênero (1 para feminino, 2 para masculino): ")
+        leia(gênero)
 
         escreva("Insira sua altura em metros: ")
         leia(altura)
 
-        se (sexo == 1)
+        se (gênero == 1)
         {
             pesoIdeal = (72.7 * altura) - 58
         }
