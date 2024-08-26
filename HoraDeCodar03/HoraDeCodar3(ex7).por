@@ -15,16 +15,15 @@ programa
 
             enquanto (nota < 0 ou nota > 10)
             {
-                escreva("ERRO: Insira uma nota v·lida de 0 a 10: ")
+                escreva("ERRO: Insira uma nota v√°lida de 0 a 10: ")
                 leia(nota)
             }
 
             soma = soma + nota
             contador = contador + 1
         }
-
         media = soma / 6
-        escreva("A mÈdia do aluno È: ", media)
+        escreva("A m√©dia do aluno √©: ", media)
     }
 }
 
