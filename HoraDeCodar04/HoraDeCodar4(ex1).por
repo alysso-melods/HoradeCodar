@@ -19,7 +19,6 @@ programa
                 lista = lista + nome + "\n"
             }
         }
-
         escreva("Total de estudantes cadastrados:", total, "\n")
         escreva("Lista de estudantes cadastrados:\n", lista)
     }
