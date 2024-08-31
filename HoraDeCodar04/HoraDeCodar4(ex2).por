@@ -2,25 +2,57 @@ programa
 {
     funcao inicio()
     {
-        cadeia planetas[6] = {
-        "Terra", "terra", "Marte","marte", 
-        "Plutão", "plutão", "Vênus", "vênus", 
-        "Júpiter", "júpiter", "Saturno", "saturno"}
+        cadeia planetaInserido
+        cadeia planeta1 = "Terra"
+        cadeia planeta2 = "terra"
+        cadeia planeta3 = "Marte"
+        cadeia planeta4 = "marte"
+        cadeia planeta5 = "PlutÃ£o"
+        cadeia planeta6 = "plutÃ£o"
+        cadeia planeta7 = "VÃªnus"
+        cadeia planeta8 = "vÃªnus"
+        cadeia planeta9 = "JÃºpiter"
+        cadeia planeta10 = "jÃºpiter"
+        cadeia planeta11 = "Saturno"
+        cadeia planeta12 = "saturno"
+        inteiro encontrado
 
-        cadeia planetainserido
+        escreva("Insira o nome de um planeta: ")
+        leia(planetaInserido)
+        encontrado = 0
 
-        escreva("Insira o nome de um planeta:")
-        leia(planetainserido)
-
-        se (planetainserido == planetas[0] ou planetainserido == planetas[1] 
-            ou planetainserido == planetas[2] ou planetainserido == planetas[3] 
-            ou planetainserido == planetas[4] ou planetainserido == planetas[5])
+        se (planetaInserido == planeta1 ou planetaInserido == planeta2)
         {
-            escreva(planetainserido, " está presente na lista.")
+            encontrado = 1
+        }
+        senao se (planetaInserido == planeta3 ou planetaInserido == planeta4)
+        {
+            encontrado = 1
+        }
+        senao se (planetaInserido == planeta5 ou planetaInserido == planeta6)
+        {
+            encontrado = 1
+        }
+        senao se (planetaInserido == planeta7 ou planetaInserido == planeta8)
+        {
+            encontrado = 1
+        }
+        senao se (planetaInserido == planeta9 ou planetaInserido == planeta10)
+        {
+            encontrado = 1
+        }
+        senao se (planetaInserido == planeta11 ou planetaInserido == planeta12)
+        {
+            encontrado = 1
+        }
+
+        se (encontrado == 1)
+        {
+            escreva(planetaInserido, " estÃ¡ na lista.\n")
         }
         senao
         {
-            escreva( planetainserido, "não está presente na lista.")
+            escreva(planetaInserido, " nÃ£o estÃ¡ na lista.\n")
         }
     }
 }
