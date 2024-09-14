@@ -2,9 +2,8 @@ programa
 {
     funcao inicio()
     {
-        real numero
+        real numero, media
         real soma = 0
-        real media
 
         escreva("Insira o primeiro número: ")
         leia(numero)
